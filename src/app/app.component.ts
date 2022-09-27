@@ -5,11 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  public titulo: string = 'Contador APP';
-  numero: number = 10;
   
-  operacion( valor:number ) {
-    this.numero += valor;  
-  }
 }
 
