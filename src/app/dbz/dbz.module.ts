@@ -2,15 +2,17 @@
 //propias del sistema
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';//formulario reactivos
 //2. las importaciones de terceros
 
-//2. las importaciones de creadas
+//2. las importaciones creadas
 import { MainpageComponent } from './mainpage/mainpage.component';
+import { PersonajesComponent } from './personajes/personajes.component';
 
 @NgModule({
   declarations: [
-    MainpageComponent
+    MainpageComponent,
+    PersonajesComponent
   ],
   exports: [
     MainpageComponent
@@ -18,6 +20,6 @@ import { MainpageComponent } from './mainpage/mainpage.component';
   imports: [
     CommonModule,
     FormsModule
-  ]
+  ] 
 })
 export class DbzModule { }
